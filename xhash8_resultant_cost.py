@@ -611,7 +611,9 @@ def resultant_227(
     mul: Callable[[T, T], T] = operator.mul,
     scale: Callable[[T, int], T] = operator.mul,
 ) -> T:
-    """Evaluate the exact resultant; pad a with zeros to length seven.
+        """Evaluate the exact resultant from seven coefficients.
+
+    The caller must include zero coefficients for missing powers.
 
     mul must include the intended quotient reductions when working in a
     quotient ring. Callbacks must not mutate either input object.
