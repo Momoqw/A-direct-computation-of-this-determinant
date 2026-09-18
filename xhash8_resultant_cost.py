@@ -12,8 +12,8 @@ For quotient rings, the multiplication callback performs the
 required reductions.
 
 Examples:
-    python xhash7_resultant_227_clean.py
-    python xhash7_resultant_227_clean.py --random-tests 100 --quotient-tests 5
+    python xhash8_resultant_cost.py
+    python xhash8_resultant_cost.py --random-tests 100 --quotient-tests 5
 """
 from __future__ import annotations
 
