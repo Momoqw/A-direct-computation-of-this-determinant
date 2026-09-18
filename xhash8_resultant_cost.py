@@ -611,7 +611,7 @@ def resultant_227(
     mul: Callable[[T, T], T] = operator.mul,
     scale: Callable[[T, int], T] = operator.mul,
 ) -> T:
-        """Evaluate the exact resultant from seven coefficients.
+    """Evaluate the exact resultant from seven coefficients.
 
     The caller must include zero coefficients for missing powers.
 
